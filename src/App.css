@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table {
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	padding: 20px;
+}
+
+.table + .table {
+	margin-left: 10px;
+}
+
+.table__item {
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	padding: 5px;
+}
+
+.table__item + .table__item {
+	margin-top: 10px;
+}
+
+h1 {
+	margin-bottom: 20px;
+  text-align: center;
+}
